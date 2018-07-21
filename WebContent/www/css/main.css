@@ -1,0 +1,230 @@
+
+#wrapper{
+   /* height:1000px; */
+}
+
+#main_head{
+   background:#fff;
+   position:fixed;
+   top:0;
+      width:100%;
+   min-height:90px;
+    margin:0 auto;
+   z-index: 9999;
+}
+
+.main_head_inner{
+   width:90%;
+   margin:0 auto;
+   position:relative;
+}
+
+.main_logo{
+      position:absolute;
+      top: 5px;
+	left: 102px;
+}
+
+.main_logo_a{
+    display:block;
+    text-indent:-9999em;
+    width:80px;
+    height:78px;
+    background:url(../img/product/main_logo.jpg) left center;
+}
+
+ul.lnb{
+   padding:25px 0 0 200px;
+}
+
+ul.lnb:after{
+   content:'';
+   display:block;
+   clear:both;
+}
+
+ul.lnb>li{
+   float:left;
+}
+
+ul.lnb>li>a:link, ul.lnb>li>a:visited{
+   display:block;
+   height: 38px;
+    text-indent:-9999em;
+}
+
+ul.lnb>li>a.cate1:link, ul.lnb>li>a.cate1:visited{
+    width:100px;
+    background:url(../img/cate_1.png) no-repeat left -50px center;
+}
+
+ul.lnb>li>a.cate1:hover, ul.lnb>li>a.cate1:focus{
+    background:url(../img/cate_1_over.png) no-repeat left -50px center;
+}
+
+ul.lnb>li>a.cate2:link, ul.lnb>li>a.cate2:visited{
+    width:100px;
+    background:url(../img/cate_2.png) no-repeat left -50px center;
+}
+
+ul.lnb>li>a.cate2:hover, ul.lnb>li>a.cate2:focus{
+    background:url(../img/cate_2_over.png) no-repeat left -50px center;
+}
+
+ul.lnb>li>a.cate3:link, ul.lnb>li>a.cate3:visited{
+    width:100px;
+    background:url(../img/cate_3.png) no-repeat left -50px center;
+}
+
+ul.lnb>li>a.cate3:hover, ul.lnb>li>a.cate3:focus{
+    background:url(../img/cate_3_over.png) no-repeat left -50px center;
+}
+
+ul.lnb>li>a.cate4:link, ul.lnb>li>a.cate4:visited{
+    width:200px;
+    background:url(../img/cate_4.png) no-repeat left center;
+}
+
+ul.lnb>li>a.cate4:hover, ul.lnb>li>a.cate4:focus{
+    background:url(../img/cate_4_over.png) no-repeat left center;
+}
+
+ul.lnb>li>a.cate5:link, ul.lnb>li>a.cate5:visited{
+    width:200px;
+    background:url(../img/cate_5.png) no-repeat left center;
+}
+
+ul.lnb>li>a.cate5:hover, ul.lnb>li>a.cate5:focus{
+    background:url(../img/cate_5_over.png) no-repeat left center;
+}
+
+ul.lnb>li>a.cate6:link, ul.lnb>li>a.cate6:visited{
+    width:120px;
+    background:url(../img/cate_6.png) no-repeat left -35px center;
+}
+
+ul.lnb>li>a.cate6:hover, ul.lnb>li>a.cate6:focus{
+    background:url(../img/cate_6_over.png) no-repeat left -35px center;
+}
+
+
+
+#main_body{
+   margin:95px 0 80px 0;
+   height: 65%;
+}
+
+#main_footer{
+   position:relative;
+}
+
+.main_footer_inner{
+    position:relative;
+   width:100%;
+   height:150px;
+   margin:0 auto;
+   padding:30px 0;
+   background:#155D89;
+
+}
+
+.main_footer_logo{
+   position:absolute;
+   top:45px;
+   left:16%;
+}
+
+.footer_logo_a{
+    display:block;
+    text-indent:-9999em;
+    width:120px;
+    height:118px;
+    background:url(../img/product/footer_logo.png) left center;
+}
+
+.footer_nav{
+   width:80%;
+   margin:0 auto;
+}
+
+.footer_nav:after{
+   content:'';
+   display:block;
+   clear:both;
+}
+
+.footer_nav>li{
+   float:right;
+}
+
+.footer_nav>li>a:link, .footer_nav>li>a:visited{
+   display:block;
+   padding:10px;
+   color:#155D89;
+}
+
+.footer_nav>li>a:hover, .footer_nav>li>a:focus{
+   color:#2896DB;
+   text-decoration:none;
+}
+
+.footer_top_btn{
+   position:absolute;
+   top:-25px;
+   right:50%;
+   width:100px;
+   height:50px;
+}
+
+.footer_co{
+  position:absolute;
+   bottom:-25px;
+   left: 150px;
+   font-size: 1.2em;
+}
+
+.footer_ad{
+	position:relative;
+	top:145px;
+	left:25%;
+	color:#fff;
+   font-size: 1.2em;
+   
+}
+
+.footer_top_btn>a:link, .footer_top_btn>a:visited{
+   display:block;
+   height:100%;
+   line-height: 50px;
+   text-align: center;
+   color:#fff;
+	background:url(../img/top_btn_bg.png) left center;
+	font-size:1.3em;
+	font-weight: normal;
+}
+
+.footer_top_btn>a:hover, .footer_top_btn>a:focus{
+   text-decoration:none;
+}
+
+.none_page{
+	display:block;
+	margin:250px auto 0;
+}
+
+.about_text_logo{
+	width:300px;
+	display:block;
+	margin:0 auto 10px;
+}
+
+.about_text_box{
+	padding:100px 100px;
+	background: #fff;
+}
+
+.about_text{
+	width:700px;
+	margin:0 auto;
+	display: block;
+}

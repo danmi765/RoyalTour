@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page session="false" %>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Royal Tour</title>
+
+        <script src="libs/jquery-1.11.1.min.js"></script>
+        <script src="libs/jquery.mobile-1.4.5.min.js"></script>
+
+        <script src="libs/jquery.slide.js"></script>
+        <script src="libs/jquery.easing.min.js"></script>
+        <link rel="stylesheet" href="libs/jquery.mobile-1.4.5.min.css" />
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <link rel="stylesheet" href="css/slidereset.css" />
+        <link rel="stylesheet" href="css/slider.css" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div id="main_head">
+	        	<div class="main_head_inner">
+	        		<div class="main_logo"><a class="main_logo_a" href="">LOGO</a></div>
+        			<ul class="lnb">
+        				<li><a href="">About</a></li>
+        				<li><a href="">Rooms</a></li>
+        				<li><a href="">Dining</a></li>
+        				<li><a href="">Swimming & golf</a></li>
+        				<li><a href="">Club Membership</a></li>
+        				<li><a href="">Promotions</a></li>
+        			</ul>
+	        	</div> <!-- main_head_inner E -->
+	        </div> <!-- main_head E -->
+
+            <div id="main_body">
+
+                <!-- start of image slider -->
+                <div class="main_banner">
+                  <div class="content">
+                    <ul class="j_slideLists main_banner_inner">
+                      <li>
+                        <a href="#"><img src="img/product/one.jpeg"></a>
+                    	<span class="text"></span>
+                      </li>
+                      <li>
+                        <a href="#"><img src="img/product/two.jpeg"></a>
+                    	<span class="text"></span>
+                      </li>
+                      <li>
+                        <a href="#"><img src="img/product/three.jpeg"></a>
+                    	<span class="text"></span>
+                      </li>
+                      <li>
+                        <a href="#"><img src="img/product/four.jpeg"></a>
+                    	<span class="text"></span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="tag">
+                    <ul class="j_slideTags">
+                      <li class="current"></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="btn">
+                    <a href="javascript:void(0);" target="_self" class="btnPrev j_slidePrev"></a>
+                    <a href="javascript:void(0);" target="_self" class="btnNext j_slideNext"></a>
+                  </div>
+                </div><!-- end of image slider -->
+          </div><!-- main_body E -->
+
+          <div id="main_footer">
+              <div class="main_footer_inner">
+                  <div class="main_footer_logo"><a href="">FOOTER LOGO</a></div>
+              </div> <!-- main_footer_inner E -->
+          </div> <!-- main_footer E -->
+
+        </div> <!-- wrapper E -->
+        <script src="js/slider.js"></script>
+    </body>
+
+</html>
